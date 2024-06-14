@@ -59,3 +59,7 @@ nav a {
     gap: .6rem;
     list-style-type: none;
 }
+
+.header_navigation a:hover {
+    background-color: black;
+}
