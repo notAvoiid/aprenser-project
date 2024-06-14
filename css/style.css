@@ -13,6 +13,10 @@ p, a {
     font-size: 1.6rem;
 }
 
+nav a {
+    color: inherit;
+}
+
 .upper {
     text-transform: uppercase;
 }
@@ -34,4 +38,24 @@ p, a {
 .container {
     max-width: 127.6rem;
     margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_navigation a {
+    padding: .75em 1.15em;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.header_navigation ul {
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
 }
