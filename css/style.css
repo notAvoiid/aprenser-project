@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #FED001;
+    --secondary-color: #2A2A2A;
+    --light-color: #FAFAFA;
+    --dark-blue: #003464;
+}
+
+html {
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p, a {
+    font-size: 1.6rem;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.wrapperContainer-dark {
+    background-color: var(--secondary-color);
+}
+
+.wrapperContainer-light {
+    background-color: var(--light-color);
+}
+
+.wrapperContainer-dark2 {
+    background-color: var(--dark-blue);
+}
