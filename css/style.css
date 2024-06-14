@@ -19,6 +19,7 @@ p, a {
 
 .wrapperContainer-dark {
     background-color: var(--secondary-color);
+    color: var(--light-color);
 }
 
 .wrapperContainer-light {
@@ -27,4 +28,10 @@ p, a {
 
 .wrapperContainer-dark2 {
     background-color: var(--dark-blue);
+    color: var(--light-color);
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
 }
